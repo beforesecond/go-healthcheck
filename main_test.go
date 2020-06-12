@@ -71,8 +71,7 @@ func teardown() {
 func TestEverything(t *testing.T) {
 	for i, fn := range tests {
 		setup()
-		defer teardown()
 		t.Run(strconv.Itoa(i), fn)
-
+		teardown()
 	}
 }

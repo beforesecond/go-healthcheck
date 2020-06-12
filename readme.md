@@ -20,4 +20,10 @@ go run main.go
 docker run -it --rm --name go-healthcheck go-healthcheck
 ```
 
+### How to run test
+
+```shell
+go test -cover
+```
+
 ## Thank You.

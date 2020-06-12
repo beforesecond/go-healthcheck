@@ -186,5 +186,5 @@ func main() {
 	if err != nil {
 		log.Print(err)
 	}
-	go RequestToReportAPI(requestJSON, token)
+	RequestToReportAPI(requestJSON, token)
 }
